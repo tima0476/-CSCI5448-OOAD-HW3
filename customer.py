@@ -9,9 +9,9 @@
 # file: customer.py
 # description:  Defines and implements the Customer class plus the CasualCustomer,
 # RegularCustomer, and BusinessCustomer subclasses.  The Customer class is an abstract
-# base class responsible for name, minimum and maximum tool rental quantities and durations, 
-# and a list of currently active Rentals.  The class is also responsible for providing information
-# about desired tools, and taking care of rental returns when the rental period expires.
+# base class responsible for name, plus minimum and maximum tool rental quantities and durations. 
+# The class is also responsible for providing information about desired tool rentals.
+#
 # The subclasses are concrete classes which specialize Customer according to specific rental
 # quantity and duration requirements of the various customer types.
 #
