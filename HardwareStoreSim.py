@@ -18,7 +18,6 @@ import store
 
 class HardwareStoreSim:
 	def __init__(self):
-		# self.store = store.Store()
 		self.store = None
 	
 	# RunSimulation(days) - Execute the hardware store simulation for the
@@ -104,4 +103,4 @@ if __name__ == "__main__":
 	print()
 
 	sim = HardwareStoreSim()
-	sim.RunSimulation(35)	# Simulate 35 days of the simulation
+	sim.RunSimulation(35)	# Simulate 35 days of the hardware store rental business
