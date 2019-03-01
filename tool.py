@@ -7,13 +7,11 @@
 # written by Timothy Mason (solo project)
 #
 # file: tool.py
-# description: Implements the Tool and ToolInfo classes.
+# description: Implements the Tool class.
 #
-# Tool: Each instance of Tool represents a single tool.  A Tool is responsible for knowing its' name, category, and 
-# rental price per day.  These attributes are passed into the constructor (to be set by the Store object)
+# Tool: Each instance of Tool represents a single tool.  A Tool is a simple data holder responsible for knowing its' 
+# name, category, and rental price per day.  These attributes are passed into the constructor.
 # 
-import rental
-
 class Tool:
 	def __init__(self, name, category, price):
 		self.name = name
